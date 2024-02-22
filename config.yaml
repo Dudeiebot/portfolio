@@ -1,0 +1,108 @@
+baseURL: ""
+languageCode: en-us
+title: Excel Ojo
+theme: PaperMod
+
+menu:
+  main:
+    - identifier: home
+      name: iam
+      url: /
+      weight: 1
+    - identifier: dajournal
+      name: da'journal
+      url: /journal
+      weight: 2
+    - identifier: daproject
+      name: da'project
+      url: /project
+      weight: 3
+    - identifier: daall
+      name: da'all
+      url: /daall
+      weight: 4
+    - identifier: dasetup
+      name: da'setup
+      url: /setup
+      weight: 5
+    # - identifier: search
+    #   name: Search
+    #   url: /search
+    #   weight: 50
+    # - identifier: tags
+    #   name: Tags
+    #   url: /tags
+    #   weight: 60
+    # - identifier: notes
+    #   name: Notes
+    #   url: https://notes.arkalim.org
+    #   weight: 70
+
+params:
+  # theme
+  showToc: true
+  TocOpen: false
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  hideMeta: false
+
+  # for enchanced SEO
+  env: production
+
+  # Home Page
+  profileMode:
+    enabled: true
+    title: "_id~_"
+    subtitle: |
+      Hi there, I'm Excel - a software and system engineer. I spend my days building all sorts of random things. You can bet I'm not out here trying to break stuff; it's all about the joy of creating and exploring technology in a secure world—I also understand cybersecurity
+    imageUrl: "home/suare.jpg"
+    imageWidth: 220
+    imageHeight: 220
+    # buttons:
+    #   - name: Resume
+    #     url: ""
+
+  # List View
+  hideDescriptionInList: false
+
+  # cover image for posts
+  cover:
+    hiddenInList: false # hide on list pages and home
+    hiddenInSingle: false # hide on single page
+
+  socialIcons:
+    - name: "linkedin" 
+      url: "https://www.linkedin.com/in/excel-ojo/"
+    - name: "twitter"
+      url: "https://twitter.com/crecia_cell"
+    - name: "github"
+      url: "https://github.com/dudeiebot"
+    - name: "email"
+      url: "mailto:ojoexcel5@gmail.com" #going to add more socials here 
+    - name: "instagram"
+      url: "https://www.instagram.com/dudeiebiish?igsh=dHc0M2trZ2J2OGFk&utm_source=qr"
+    - name: "cv"
+      url: dudecv.pdf 
+
+  # text search
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    keys: ["title", "permalink", "summary", "content"]
+
+# for search using Fuse.js
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+# allow HTML in MD
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
