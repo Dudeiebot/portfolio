@@ -3,7 +3,6 @@ title: "noob.md"
 slug:
 category:
 summary: noob just like you know
-description: noob just like you know
 cover:
   image:
   alt:

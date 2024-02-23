@@ -3,7 +3,6 @@ title: "da'stack"
 slug:
 category:
 summary: Tools I utilize, anticipate utilizing, and likely will persist in utilizing
-description: Tools I utilize, anticipate utilizing, and likely will persist in utilizing
 cover:
   image:
   alt:

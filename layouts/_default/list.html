@@ -7,19 +7,19 @@
 {{- if not .IsHome | and .Title }}
 <header class="page-header">
   {{- partial "breadcrumbs.html" . }}
-  <h1>
-    {{ .Title }}
-    {{- if and (or (eq .Kind `term`) (eq .Kind `section`)) (.Param "ShowRssButtonInSectionTermList") }}
-    <a href="index.xml" title="RSS" aria-label="RSS">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-        stroke-linecap="round" stroke-linejoin="round" height="23">
-        <path d="M4 11a9 9 0 0 1 9 9" />
-        <path d="M4 4a16 16 0 0 1 16 16" />
-        <circle cx="5" cy="19" r="1" />
-      </svg>
-    </a>
-    {{- end }}
-  </h1>
+  <!-- <h4> -->
+  <!--   {{ .Title }} -->
+  <!--   {{- if and (or (eq .Kind `term`) (eq .Kind `section`)) (.Param "ShowRssButtonInSectionTermList") }} -->
+  <!--   <a href="index.xml" title="RSS" aria-label="RSS"> -->
+  <!--     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" -->
+  <!--       stroke-linecap="round" stroke-linejoin="round" height="23"> -->
+  <!--       <path d="M4 11a9 9 0 0 1 9 9" /> -->
+  <!--       <path d="M4 4a16 16 0 0 1 16 16" /> -->
+  <!--       <circle cx="5" cy="19" r="1" /> -->
+  <!--     </svg> -->
+  <!--   </a> -->
+  <!--   {{- end }} -->
+  <!-- </h4> -->
   {{- if .Description }}
   <div class="post-description">
     {{ .Description | markdownify }}
@@ -64,15 +64,15 @@
   {{- $isHidden := (site.Params.cover.hidden | default site.Params.cover.hiddenInList) }}
   {{- partial "cover.html" (dict "cxt" . "IsHome" true "isHidden" $isHidden) }}
   <header class="entry-header">
-    <h2>
+    <h4>
       {{- .Title }}
       {{- if .Draft }}<sup><span class="entry-isdraft">&nbsp;&nbsp;[draft]</span></sup>{{- end }}
-    </h2>
+    </h4>
   </header>
   <!-- Added a custom param hideDescriptionInList  -->
-  {{- if (ne (.Param "hideDescriptionInList") true) }}
+  {{- if (ne (.Param "hideSummary") true) }}
   <div class="entry-content">
-    <p>{{ .Description }}</p>
+    <p>{{ .Summary | plainify | htmlUnescape }}{{ if .Truncated }}...{{ end }}</p>
   </div>
   {{- end }}
   {{- if not (.Param "hideMeta") }}

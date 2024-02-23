@@ -3,7 +3,6 @@ title: "How i want to write"
 slug:
 category:
 summary: preferrably how i will like to be writing all my .md
-description: preferrably how i will like to be writing all my .md
 cover:
   image:
   alt:

@@ -59,7 +59,8 @@
 .entry-content {
     margin: 8px 0;
     color: var(--secondary);
-    font-size: 18px;
+    font-size: 14px;
+    font-style: italic;
     line-height: 1.6;
     overflow: hidden;
     display: -webkit-box;
