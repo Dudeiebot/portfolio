@@ -61,7 +61,7 @@ params:
 
   label: 
     text: "~dudeiebot"
-    icon: "home/shii.png"
+    icon: "dp2.png"
     iconHeight: 35
   # Home Page
   profileMode:
@@ -69,7 +69,7 @@ params:
     title: "_id~_"
     subtitle: | 
       Hi there, I'm Excel - a software and system engineer. I spend my days building all sorts of random things. You can bet I'm not out here trying to break stuff; it's all about the joy of creating and exploring technology in a secure world—I also understand cybersecurity
-    imageUrl: "home/suare.jpg"
+    imageUrl: "suare.jpg"
     imageWidth: 220
     imageHeight: 220
     buttons:
