@@ -7,21 +7,30 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>noob.md</title>
+      <link>//localhost:1313/journal/regarding_nvim/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/journal/regarding_nvim/</guid>
+      <description>noob just like you know</description>
+    </item>
+    
+    <item>
+      <title>da&#39;stack</title>
+      <link>//localhost:1313/journal/stack/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/journal/stack/</guid>
+      <description>Tools I utilize, anticipate utilizing, and likely will persist in utilizing</description>
+    </item>
+    
+    <item>
       <title>How i want to write</title>
       <link>//localhost:1313/journal/how_i_want_to_write/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>//localhost:1313/journal/how_i_want_to_write/</guid>
-      <description>shiit writing</description>
-    </item>
-    
-    <item>
-      <title>I passed the AWS DVA Certification Exam</title>
-      <link>//localhost:1313/journal/aws-dva-certification/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>//localhost:1313/journal/aws-dva-certification/</guid>
-      <description>How I passed the AWS Developer - Associate Certification Exam (DVA-C02)</description>
+      <description>preferrably how i will like to be writing all my .md</description>
     </item>
     
     <item>
