@@ -22,10 +22,6 @@ menu:
       name: da'all
       url: /daall
       weight: 4
-    - identifier: dasetup
-      name: da'setup
-      url: /setup
-      weight: 5
     # - identifier: search
     #   name: Search
     #   url: /search
@@ -60,6 +56,7 @@ params:
 
   defaultTheme: auto
   disableThemeToggle: true
+  ShowReadingTime: true
 
 
   label: 
@@ -75,9 +72,9 @@ params:
     imageUrl: "home/suare.jpg"
     imageWidth: 220
     imageHeight: 220
-    # buttons:
-    #   - name: Resume
-    #     url: ""
+    buttons:
+      - name: da'setup🛠️
+        url: "setup"
 
   # List View
   hideDescriptionInList: false
