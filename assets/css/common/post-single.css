@@ -5,7 +5,7 @@
 
 .post-title {
     margin-bottom: 2px;
-    font-size: 40px;
+    font-size: 18px;
 }
 
 .post-description {
@@ -34,6 +34,7 @@
 
 .post-content {
     color: var(--content);
+    font-size: 15px;
 }
 
 .post-content h3,
@@ -45,16 +46,16 @@
 
 .post-content h1 {
     margin: 40px auto 32px;
-    font-size: 40px;
+    font-size: 25px;
 }
 
 .post-content h2 {
     margin: 32px auto 24px;
-    font-size: 32px;
+    font-size: 25px;
 }
 
 .post-content h3 {
-    font-size: 24px;
+    font-size: 18px;
 }
 
 .post-content h4 {
@@ -62,7 +63,7 @@
 }
 
 .post-content h5 {
-    font-size: 14px;
+    font-size: 13px;
 }
 
 .post-content h6 {
@@ -262,6 +263,7 @@
     background: var(--code-bg);
     border-radius: var(--radius);
     padding: 0.4em;
+    font-size: 15px;
 }
 
 .dark .toc {

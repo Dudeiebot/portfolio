@@ -8,12 +8,12 @@
     line-height: var(--header-height);
 }
 
-.sticky-header {
-    position: fixed;
-    z-index: 9999;
-    width: 100%;
-    background-color: var(--theme);
-}
+/* .sticky-header { */
+/*     position: fixed; */
+/*     z-index: 9999; */
+/*     width: 100%; */
+/*     background-color: var(--theme); */
+/* } */
 
 .nav a {
     display: block;
@@ -73,7 +73,7 @@ body:not(.dark) #sun {
 }
 
 #menu a {
-    font-size: 16px;
+    font-size: 15px;
 }
 
 #menu .active {
