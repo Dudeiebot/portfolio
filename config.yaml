@@ -61,7 +61,7 @@ params:
 
   label: 
     text: "~dudeiebot"
-    icon: "home/dp2.png"
+    icon: "home/shii.png"
     iconHeight: 35
   # Home Page
   profileMode:
