@@ -15,11 +15,11 @@ menu:
       url: /journal
       weight: 2
     - identifier: daproject
-      name: da'project
+      name: projects
       url: /project
       weight: 3
     - identifier: daall
-      name: da'all
+      name: all
       url: /daall
       weight: 4
     # - identifier: search
