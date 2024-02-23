@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>noob.md | Excel Ojo</title>
+<meta name="keywords" content="">
+<meta name="description" content="noob just like you know">
+<meta name="author" content="">
+<link rel="canonical" href="//localhost:1313/journal/regarding_nvim/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.min.2b833c6baa7a96407c2417c7a4049985b42c21cccc2472abf4603967eafd2273.css" integrity="sha256-K4M8a6p6lkB8JBfHpASZhbQsIczMJHKr9GA5Z&#43;r9InM=" rel="preload stylesheet" as="style">
+<script defer crossorigin="anonymous" src="/assets/js/highlight.min.30d2332871da51f600f574811c17751e6c862577d450b624f86e2bc8a6e31221.js" integrity="sha256-MNIzKHHaUfYA9XSBHBd1HmyGJXfUULYk&#43;G4ryKbjEiE="
+    onload="hljs.initHighlightingOnLoad();"></script>
+<link rel="icon" href="//localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="//localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="//localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="//localhost:1313/apple-touch-icon.png">
+<link rel="mask-icon" href="//localhost:1313/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="//localhost:1313/journal/regarding_nvim/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --hljs-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript><meta property="og:title" content="noob.md" />
+<meta property="og:description" content="noob just like you know" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="//localhost:1313/journal/regarding_nvim/" /><meta property="article:section" content="journal" />
+
+
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="noob.md"/>
+<meta name="twitter:description" content="noob just like you know"/>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Journals",
+      "item": "//localhost:1313/journal/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "noob.md",
+      "item": "//localhost:1313/journal/regarding_nvim/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "noob.md",
+  "name": "noob.md",
+  "description": "noob just like you know",
+  "keywords": [
+    
+  ],
+  "articleBody": "~Guide to Using Neovim This guide provides essential tips and commands when using Neovim. Instead of spending time searching for specific commands, you can find the most important ones right here. These commands can be customized in your nvim setup but most of them are defualt, and most of them are customed to my taste. Check my setup\nKey Modes in Neovim Normal Mode: The default mode for Neovim. Command Mode: Used for executing commands. Visual Mode: For selecting and copying (yanking) text. Insert Mode: For inserting text. NVIM_TREE Create a File: Press a in the nvim_tree pane. You can also create folder by adding \\ at the end of the name. Ensure you check the location before creating new items. Open a File: Use o or enter on the file’s directory. Toggle nvim_tree: Press ctrl-n. Navigate: Use ctrl-h to navigate between nvim and the tree pane. Commands That Work Ensure you are in normal mode for these commands to work.\nChange Theme: Use th to customize your theme. Suspended Mode: ctrl-z takes you to terminal suspended mode. Use fg to return to your buffer. Open Folders: Use sB without nvim-tree. Close Buffer: Close an opened buffer with x or :bd. Navigate in Command Mode: Use esc or ctrl-c to navigate. Navigation Use j, k, l, and h for navigation. Speed up with B, W, J, K, L, H, also use it for backward movement. Combine navigation keys with numbers for faster movement (e.g 50j). Jump between functions with { and }. Go to the beginning or end of a file with gg and GG, respectively. Navigate directly to a line with :. Split Screen Horizontal Split: Use split. Vertical Split: Use vsplit. Saving and Quitting Save: Use :w. Quit: Use :q or :q! for a hard quit or maybe get stuck forever. Terminal et Neovim Open Terminal: Use ctrl-t for a floating terminal, h or v for horizontal or vertical splits. Show Opened Terminals: Use pt. Macros Record a Macro: Press q followed by the key you want to save the command sequence to. End recording with q and replay the macro with @ followed by the key. Searching Use / to search within the file. Navigate through instances with n (forward) and N (backward). CMD on the go Yanking a line with yy, yanking a word with ye, yanking matching sequence with y%. zz to centre your cursor. Deleting a line with dd, deleting a word with de,deleting matching sequence with d%. If you want to Change the same words(let say in a json file), use shift ; which displays some certain strings that can follow this patterns/word you want to change/new word. Go to definitions, use ctrl-] Use gc or gd for comment out a line of code. Switch between lowercase and uppercase with ~. Use . to repeat the last action. * for checking instances where word are used in the file and moving through all highlighted words o for taking you below a new line and O for taking you above a new line, also you get to be in insert mode also. x delete a letter, and you can add nos to the back also for more deleting. Use r to replace a letter, R for replacing multiple letters. Highlight lines fully with shift-v and the curly brackets. Indent with \u003c or \u003e. A takes you to the end of the line, 0 takes you to the beginning of a line and capital I takes to the beginning and putting in insert mode. % comes in handy in between brackets to flip around them, you can move from the bracket opening { to the bracket close } with the sign, or around other brackets also. Talks An easy way to remember d as Delete and c as Change, w as Forward and b as backward, t as to and f as find, b as beginning and e as end.\nFor real this are just normal english, like d 2 w called delete 2 word will practically delete 2 word.\ndt and ct followed by the lettering or symbol you want to delete can be helpful also, it will equally delete of change to the side.\n",
+  "wordCount" : "701",
+  "inLanguage": "en",
+  "datePublished": "0001-01-01T00:00:00Z",
+  "dateModified": "0001-01-01T00:00:00Z",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "//localhost:1313/journal/regarding_nvim/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Excel Ojo",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "//localhost:1313/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+
+<body class="" id="top">
+<script>
+    if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header sticky-header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="//localhost:1313/" accesskey="h" title="~dudeiebot (Alt + H)">
+                <img src="//localhost:1313/home/dp2.png" alt="logo" aria-label="logo"
+                    height="35">~dudeiebot</a>
+            <span class="logo-switches">
+                <ul class="lang-switch"><li>|</li>
+                </ul>
+            </span>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="//localhost:1313/" title="iam">
+                    <span>iam</span>
+                </a>
+            </li>
+            <li>
+                <a href="//localhost:1313/journal" title="da&#39;journal">
+                    <span>da&#39;journal</span>
+                </a>
+            </li>
+            <li>
+                <a href="//localhost:1313/project" title="da&#39;project">
+                    <span>da&#39;project</span>
+                </a>
+            </li>
+            <li>
+                <a href="//localhost:1313/daall" title="da&#39;all">
+                    <span>da&#39;all</span>
+                </a>
+            </li>
+            <li>
+                <a href="//localhost:1313/setup" title="da&#39;setup">
+                    <span>da&#39;setup</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    <div class="breadcrumbs"><a href="//localhost:1313/">Home</a>&nbsp;»&nbsp;<a href="//localhost:1313/journal/">Journals</a></div>
+    <h1 class="post-title">
+      noob.md
+    </h1>
+    <div class="post-description">
+      noob just like you know
+    </div>
+    <div class="post-meta">
+
+
+
+</div>
+  </header> <div class="toc">
+    <details >
+        <summary accesskey="c" title="(Alt + C)">
+            <span class="details">‎ Table of Contents</span>
+        </summary>
+
+        <div class="inner"><ul>
+                <li>
+                    <a href="#guide-to-using-neovim" aria-label="~Guide to Using Neovim">~Guide to Using Neovim</a><ul>
+                        
+                <li>
+                    <a href="#key-modes-in-neovim" aria-label="Key Modes in Neovim">Key Modes in Neovim</a></li>
+                <li>
+                    <a href="#nvim_tree" aria-label="NVIM_TREE">NVIM_TREE</a></li>
+                <li>
+                    <a href="#commands-that-work" aria-label="Commands That Work">Commands That Work</a></li>
+                <li>
+                    <a href="#navigation" aria-label="Navigation">Navigation</a></li>
+                <li>
+                    <a href="#split-screen" aria-label="Split Screen">Split Screen</a></li>
+                <li>
+                    <a href="#saving-and-quitting" aria-label="Saving and Quitting">Saving and Quitting</a></li>
+                <li>
+                    <a href="#terminal-et-neovim" aria-label="Terminal et Neovim">Terminal et Neovim</a></li>
+                <li>
+                    <a href="#macros" aria-label="Macros">Macros</a></li>
+                <li>
+                    <a href="#searching" aria-label="Searching">Searching</a></li></ul>
+                </li>
+                <li>
+                    <a href="#cmd-on-the-go" aria-label="CMD on the go">CMD on the go</a></li>
+                <li>
+                    <a href="#talks" aria-label="Talks">Talks</a>
+                </li>
+            </ul>
+        </div>
+    </details>
+</div>
+
+  <div class="post-content"><h3 id="guide-to-using-neovim">~Guide to Using Neovim<a hidden class="anchor" aria-hidden="true" href="#guide-to-using-neovim">#</a></h3>
+<p>This guide provides essential tips and commands when using Neovim. Instead of spending time searching for specific commands, you can find the most important ones right here. These commands can be customized in your nvim setup but most of them are defualt, and most of them are customed to my taste. Check my <a href="https://github.com/Dudeiebot/nvim"><code>setup</code></a></p>
+<h4 id="key-modes-in-neovim">Key Modes in Neovim<a hidden class="anchor" aria-hidden="true" href="#key-modes-in-neovim">#</a></h4>
+<ul>
+<li><strong>Normal Mode:</strong> The default mode for Neovim.</li>
+<li><strong>Command Mode:</strong> Used for executing commands.</li>
+<li><strong>Visual Mode:</strong> For selecting and copying (yanking) text.</li>
+<li><strong>Insert Mode:</strong> For inserting text.</li>
+</ul>
+<h4 id="nvim_tree">NVIM_TREE<a hidden class="anchor" aria-hidden="true" href="#nvim_tree">#</a></h4>
+<ul>
+<li><strong>Create a File:</strong> Press <code>a</code> in the nvim_tree pane. You can also create folder by adding <code>\</code> at the end of the name. Ensure you check the location before creating new items.</li>
+<li><strong>Open a File:</strong> Use <code>o</code> or <code>enter</code> on the file&rsquo;s directory.</li>
+<li><strong>Toggle nvim_tree:</strong> Press <code>ctrl-n</code>.</li>
+<li><strong>Navigate:</strong> Use <code>ctrl-h</code> to navigate between nvim and the tree pane.</li>
+</ul>
+<h4 id="commands-that-work">Commands That Work<a hidden class="anchor" aria-hidden="true" href="#commands-that-work">#</a></h4>
+<p><code>Ensure you are in normal mode for these commands to work.</code></p>
+<ul>
+<li><strong>Change Theme:</strong> Use <code>&lt;leader&gt;th</code> to customize your theme.</li>
+<li><strong>Suspended Mode:</strong> <code>ctrl-z</code> takes you to terminal suspended mode. Use <code>fg</code> to return to your buffer.</li>
+<li><strong>Open Folders:</strong> Use <code>&lt;leader&gt;sB</code> without nvim-tree.</li>
+<li><strong>Close Buffer:</strong> Close an opened buffer with <code>&lt;leader&gt;x</code> or <code>:bd</code>.</li>
+<li><strong>Navigate in Command Mode:</strong> Use <code>esc</code> or <code>ctrl-c</code> to navigate.</li>
+</ul>
+<h4 id="navigation">Navigation<a hidden class="anchor" aria-hidden="true" href="#navigation">#</a></h4>
+<ul>
+<li>Use <code>j</code>, <code>k</code>, <code>l</code>, and <code>h</code> for navigation.</li>
+<li>Speed up with <code>B</code>, <code>W</code>, <code>J</code>, <code>K</code>, <code>L</code>, <code>H</code>, also use it for backward movement. Combine navigation keys with numbers for faster movement (e.g <code>50j</code>).</li>
+<li>Jump between functions with <code>{</code> and <code>}</code>.</li>
+<li>Go to the beginning or end of a file with <code>gg</code> and <code>GG</code>, respectively. Navigate directly to a line with <code>:&lt;line_number&gt;</code>.</li>
+</ul>
+<h4 id="split-screen">Split Screen<a hidden class="anchor" aria-hidden="true" href="#split-screen">#</a></h4>
+<ul>
+<li><strong>Horizontal Split:</strong> Use <code>split</code>.</li>
+<li><strong>Vertical Split:</strong> Use <code>vsplit</code>.</li>
+</ul>
+<h4 id="saving-and-quitting">Saving and Quitting<a hidden class="anchor" aria-hidden="true" href="#saving-and-quitting">#</a></h4>
+<ul>
+<li><strong>Save:</strong> Use <code>:w</code>.</li>
+<li><strong>Quit:</strong> Use <code>:q</code> or <code>:q!</code> for a hard quit or maybe get stuck forever.</li>
+</ul>
+<h4 id="terminal-et-neovim">Terminal et Neovim<a hidden class="anchor" aria-hidden="true" href="#terminal-et-neovim">#</a></h4>
+<ul>
+<li><strong>Open Terminal:</strong> Use <code>ctrl-t</code> for a floating terminal, <code>&lt;leader&gt;h</code> or <code>&lt;leader&gt;v</code> for horizontal or vertical splits.</li>
+<li><strong>Show Opened Terminals:</strong> Use <code>&lt;leader&gt;pt</code>.</li>
+</ul>
+<h4 id="macros">Macros<a hidden class="anchor" aria-hidden="true" href="#macros">#</a></h4>
+<ul>
+<li><strong>Record a Macro:</strong> Press <code>q</code> followed by the key you want to save the command sequence to. End recording with <code>q</code> and replay the macro with <code>@</code> followed by the key.</li>
+</ul>
+<h4 id="searching">Searching<a hidden class="anchor" aria-hidden="true" href="#searching">#</a></h4>
+<ul>
+<li>Use <code>/</code> to search within the file. Navigate through instances with <code>n</code> (forward) and <code>N</code> (backward).</li>
+</ul>
+<h3 id="cmd-on-the-go">CMD on the go<a hidden class="anchor" aria-hidden="true" href="#cmd-on-the-go">#</a></h3>
+<ul>
+<li>Yanking a line with <code>yy</code>, yanking a word with <code>ye</code>, yanking matching sequence with <code>y%</code>.</li>
+<li><code>zz</code> to centre your cursor.</li>
+<li>Deleting a line with <code>dd</code>, deleting a word with <code>de</code>,deleting matching sequence with <code>d%</code>.</li>
+<li>If you want to Change the same words(let say in a json file), use <code>shift ;</code> which displays some certain strings that can follow this pattern<code>s/word you want to change/new word</code>.</li>
+<li>Go to definitions, use <code>ctrl-]</code></li>
+<li>Use <code>gc</code> or <code>gd</code> for comment out a line of code.</li>
+<li>Switch between lowercase and uppercase with <code>~</code>.</li>
+<li>Use <code>.</code> to repeat the last action.</li>
+<li><code>*</code> for checking instances where word are used in the file and moving through all highlighted words</li>
+<li><code>o</code> for  taking you below a  new line and <code>O</code> for taking you above a new line, also you get to be in insert mode also.</li>
+<li><code>x</code> delete a letter, and you can add nos to the back also for more deleting.</li>
+<li>Use <code>r</code> to replace a letter, <code>R</code> for replacing multiple letters.</li>
+<li>Highlight lines fully with <code>shift-v</code> and the curly brackets.</li>
+<li>Indent with <code>&lt;</code> or <code>&gt;</code>.</li>
+<li><code>A</code> takes you to the end of the line, <code>0</code> takes you to the beginning of a line and capital <code>I</code> takes to the beginning and putting in insert mode.</li>
+<li><code>%</code> comes in handy in between brackets to flip around them, you can move from the bracket opening <code>{</code> to the bracket close <code>}</code> with the sign, or around other brackets also.</li>
+</ul>
+<h3 id="talks">Talks<a hidden class="anchor" aria-hidden="true" href="#talks">#</a></h3>
+<p>An easy way to remember <code>d</code> as Delete and <code>c</code> as Change, <code>w</code> as Forward and <code>b</code> as backward, <code>t</code> as to and <code>f</code> as find, <code>b</code> as beginning and <code>e</code> as end.<br>
+For real this are just normal english, like <code>d 2 w</code> called delete 2 word will practically delete 2 word.<br>
+<code>dt</code> and <code>ct</code> followed by the lettering or symbol you want to delete can be helpful also, it will equally delete of change to the side.</p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+    </ul>
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+    <span>&copy; 2024 <a href="//localhost:1313/">Excel Ojo</a></span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerHTML = 'copy';
+
+        function copyingDone() {
+            copybutton.innerHTML = 'copied!';
+            setTimeout(() => {
+                copybutton.innerHTML = 'copy';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
+</script>
+</body>
+
+</html>
