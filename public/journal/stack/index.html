@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>da&#39;stack | Excel Ojo</title>
+<meta name="keywords" content="">
+<meta name="description" content="Tools I utilize, anticipate utilizing, and likely will persist in utilizing">
+<meta name="author" content="">
+<link rel="canonical" href="//localhost:1313/journal/stack/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.min.2b833c6baa7a96407c2417c7a4049985b42c21cccc2472abf4603967eafd2273.css" integrity="sha256-K4M8a6p6lkB8JBfHpASZhbQsIczMJHKr9GA5Z&#43;r9InM=" rel="preload stylesheet" as="style">
+<script defer crossorigin="anonymous" src="/assets/js/highlight.min.30d2332871da51f600f574811c17751e6c862577d450b624f86e2bc8a6e31221.js" integrity="sha256-MNIzKHHaUfYA9XSBHBd1HmyGJXfUULYk&#43;G4ryKbjEiE="
+    onload="hljs.initHighlightingOnLoad();"></script>
+<link rel="icon" href="//localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="//localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="//localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="//localhost:1313/apple-touch-icon.png">
+<link rel="mask-icon" href="//localhost:1313/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="//localhost:1313/journal/stack/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --hljs-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript><meta property="og:title" content="da&#39;stack" />
+<meta property="og:description" content="Tools I utilize, anticipate utilizing, and likely will persist in utilizing" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="//localhost:1313/journal/stack/" /><meta property="article:section" content="journal" />
+
+
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="da&#39;stack"/>
+<meta name="twitter:description" content="Tools I utilize, anticipate utilizing, and likely will persist in utilizing"/>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Journals",
+      "item": "//localhost:1313/journal/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "da'stack",
+      "item": "//localhost:1313/journal/stack/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "da'stack",
+  "name": "da\u0027stack",
+  "description": "Tools I utilize, anticipate utilizing, and likely will persist in utilizing",
+  "keywords": [
+    
+  ],
+  "articleBody": "In my setup page, you’ll find a list of all my daily go-to tools and some awesome applications I use. We’re going to delve deeper into the setup and discuss what I find interesting in those apps, as well as touch on my Neovim (nvim) setup. Additionally, you can check out [noob.Md](link to it) for more information regarding the nvim setup and how to integrate it all together.\nI am one of those young software engineers who started with Notepad++, then progressed to Sublime Text, before eventually using VSCode and nvim. Throughout my years of development and experimentation with different text editors, one crucial aspect to consider is what makes coding easier and more lightweight for your computer system. This is particularly important because you don’t want to be the engineer who doesn’t improve as they code. I vividly recall the times when using Notepad++, where we didn’t have assisted extensions or co-pilot features like we do now; it was all about hard-coding and facing reality.\nI remember my younger self installing Notepad++ on those HP systems with just 2GB of RAM, trying not to overload the system or hear the fan kick into high gear When it comes to lightweight options, engineers’ preferences can vary because each individual understands their system specifications and what will ensure smooth operation without any hiccups. Personally, I’ve been using nvim for several years now, having transitioned from VSCode. However, lightweight functionality wasn’t my primary consideration during the switch.\nCurrently, my system experiences no RAM issues or overheating, but that doesn't deter me from using lightweight editors that enhance my coding skills and add an extra cool factor, haha! I grew to appreciate nvim + tmux for its ease of terminal manipulation and customizable keyboard shortcuts, which brought me true joy.\nI use iTerm2 as my terminal emulator, which has been reliable for me, aside from a minor hiccup when attempting to update it directly from the app. It mistakenly installed the nightly version, which I had to delete and reinstall. Additionally, I recommend terminal emulators like Alacritty and Wezterm, although I personally haven’t used them, they’re highly regarded among software engineers.\nFor terminal multiplexing, I rely on tmux, an essential tool compatible with any of the aforementioned terminal emulators. The key to mastering tmux lies in configuring its prefix, which you can customize to your liking. I’ve shared an example of my tmux.conf file, which demonstrates how to create the perfect setup. Additionally, tmux offers amazing plugins like resurrect and continuum, both of which help restore previous terminal windows in case of accidental closure or power outage. Check out my minimal CMD guide for more on tmux.\nAs for my shell, I use zsh, enhanced by Oh My Zsh for added vibe and cool features. Another handy tool in my terminal arsenal is thefuck, which helps me recall forgotten commands or their syntax.\nIn terms of workspace and knowledge management tools, I utilize Obsidian and Notion. These tools have greatly aided me in organizing notes and staying ahead when learning or practicing something new. Obsidian’s Vim plugin allows note-taking with a terminal-like interface, which has significantly improved my vim skills.\nFor browsing, I use various internet browsers such as Safari, Chrome, Brave, and Edge, each for personal reasons. However, I avoid using Arc due to its tendency to overheat my computer, despite positive experiences reported by others.\nThroughout this journey, I’ve learned that it’s essential to find a setup that works best for you, even if it means deviating from the crowd. This process may involve installing and uninstalling various tools, but once you’ve found your ideal setup, coding becomes a daily joy and motivation.\nHere are some tags for the tools in my setup 🛠️:\nCommunication: Discord and slack Window Management: Rectangle API wiz: postman Time flow: Day Progress ",
+  "wordCount" : "637",
+  "inLanguage": "en",
+  "datePublished": "0001-01-01T00:00:00Z",
+  "dateModified": "0001-01-01T00:00:00Z",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "//localhost:1313/journal/stack/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Excel Ojo",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "//localhost:1313/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+
+<body class="" id="top">
+<script>
+    if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header sticky-header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="//localhost:1313/" accesskey="h" title="~dudeiebot (Alt + H)">
+                <img src="//localhost:1313/home/dp2.png" alt="logo" aria-label="logo"
+                    height="35">~dudeiebot</a>
+            <span class="logo-switches">
+                <ul class="lang-switch"><li>|</li>
+                </ul>
+            </span>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="//localhost:1313/" title="iam">
+                    <span>iam</span>
+                </a>
+            </li>
+            <li>
+                <a href="//localhost:1313/journal" title="da&#39;journal">
+                    <span>da&#39;journal</span>
+                </a>
+            </li>
+            <li>
+                <a href="//localhost:1313/project" title="da&#39;project">
+                    <span>da&#39;project</span>
+                </a>
+            </li>
+            <li>
+                <a href="//localhost:1313/daall" title="da&#39;all">
+                    <span>da&#39;all</span>
+                </a>
+            </li>
+            <li>
+                <a href="//localhost:1313/setup" title="da&#39;setup">
+                    <span>da&#39;setup</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    <div class="breadcrumbs"><a href="//localhost:1313/">Home</a>&nbsp;»&nbsp;<a href="//localhost:1313/journal/">Journals</a></div>
+    <h1 class="post-title">
+      da&#39;stack
+    </h1>
+    <div class="post-description">
+      Tools I utilize, anticipate utilizing, and likely will persist in utilizing
+    </div>
+    <div class="post-meta">
+
+
+
+</div>
+  </header> 
+
+  <div class="post-content"><p>In my setup page, you&rsquo;ll find a list of all my daily go-to tools and some awesome applications I use. We&rsquo;re going to delve deeper into the setup and discuss what I find interesting in those apps, as well as touch on my Neovim (nvim) setup. Additionally, you can check out [noob.Md](link to it) for more information regarding the nvim setup and how to integrate it all together.</p>
+<p>I am one of those young software engineers who started with Notepad++, then progressed to Sublime Text, before eventually using VSCode and nvim. Throughout my years of development and experimentation with different text editors, one crucial aspect to consider is what makes coding easier and more lightweight for your computer system. This is particularly important because you don&rsquo;t want to be the engineer who doesn&rsquo;t improve as they code. I vividly recall the times when using Notepad++, where we didn&rsquo;t have assisted extensions or co-pilot features like we do now; it was all about hard-coding and facing reality.</p>
+<pre tabindex="0"><code>I remember my younger self installing Notepad++ on those HP systems with just 2GB 
+of RAM, trying not to overload the system or hear the fan kick into high gear
+</code></pre><p>When it comes to lightweight options, engineers&rsquo; preferences can vary because each individual understands their system specifications and what will ensure smooth operation without any hiccups. Personally, I&rsquo;ve been using nvim for several years now, having transitioned from VSCode. However, lightweight functionality wasn&rsquo;t my primary consideration during the switch.</p>
+<pre tabindex="0"><code>Currently, my system experiences no RAM issues or overheating, but that doesn&#39;t deter me from 
+using lightweight editors that enhance my coding skills and add an extra cool factor, haha!
+</code></pre><p>I grew to appreciate nvim + tmux for its ease of terminal manipulation and customizable keyboard shortcuts, which brought me true joy.</p>
+<p>I use iTerm2 as my terminal emulator, which has been reliable for me, aside from a minor hiccup when attempting to update it directly from the app. It mistakenly installed the nightly version, which I had to delete and reinstall. Additionally, I recommend terminal emulators like <a href="https://alacritty.org">Alacritty</a> and <a href="https://wezfurlong.org/wezterm/index.html">Wezterm</a>, although I personally haven&rsquo;t used them, they&rsquo;re highly regarded among software engineers.</p>
+<p>For terminal multiplexing, I rely on tmux, an essential tool compatible with any of the aforementioned terminal emulators. The key to mastering tmux lies in configuring its prefix, which you can customize to your liking. I&rsquo;ve shared an example of my <a href="https://github.com/Dudeiebot/dotall/blob/master/config/.tmux.conf">tmux.conf</a> file, which demonstrates how to create the perfect setup. Additionally, tmux offers amazing plugins like resurrect and continuum, both of which help restore previous terminal windows in case of accidental closure or power outage. Check out my minimal <a href="https://github.com/Dudeiebot/dotall/blob/master/noob.md">CMD guide</a> for more on tmux.</p>
+<p>As for my shell, I use zsh, enhanced by Oh My Zsh for added vibe and cool features. Another handy tool in my terminal arsenal is <a href="https://github.com/nvbn/thefuck"><code>thefuck</code></a>, which helps me recall forgotten commands or their syntax.</p>
+<p>In terms of workspace and knowledge management tools, I utilize Obsidian and Notion. These tools have greatly aided me in organizing notes and staying ahead when learning or practicing something new. Obsidian&rsquo;s Vim plugin allows note-taking with a terminal-like interface, which has significantly improved my vim skills.</p>
+<p>For browsing, I use various internet browsers such as Safari, Chrome, Brave, and Edge, each for personal reasons. However, I avoid using Arc due to its tendency to overheat my computer, despite positive experiences reported by others.</p>
+<p>Throughout this journey, I&rsquo;ve learned that it&rsquo;s essential to find a setup that works best for you, even if it means deviating from the crowd. This process may involve installing and uninstalling various tools, but once you&rsquo;ve found your ideal setup, coding becomes a daily joy and motivation.</p>
+<p>Here are some tags for the tools in my setup 🛠️:</p>
+<ul>
+<li><code>Communication:</code> <code>Discord and slack</code></li>
+<li><code>Window Management:</code> <code>Rectangle</code></li>
+<li><code>API wiz:</code> <code>postman</code></li>
+<li><code>Time flow:</code> <code>Day Progress</code></li>
+</ul>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+    </ul>
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+    <span>&copy; 2024 <a href="//localhost:1313/">Excel Ojo</a></span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerHTML = 'copy';
+
+        function copyingDone() {
+            copybutton.innerHTML = 'copied!';
+            setTimeout(() => {
+                copybutton.innerHTML = 'copy';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
+</script>
+</body>
+
+</html>
