@@ -60,9 +60,9 @@ params:
 
 
   label: 
-    text: "~dudeiebot"
+    text: "@dudeiebot"
     icon: "dp2.png"
-    iconHeight: 35
+    iconHeight: 25
   # Home Page
   profileMode:
     enabled: true
