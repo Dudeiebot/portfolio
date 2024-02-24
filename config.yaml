@@ -7,7 +7,7 @@ theme: PaperMod
 menu:
   main:
     - identifier: home
-      name: iam
+      name: i'm
       url: /
       weight: 1
     - identifier: dajournal
@@ -95,8 +95,6 @@ params:
       url: "mailto:ojoexcel5@gmail.com" #going to add more socials here 
     - name: "instagram"
       url: "https://www.instagram.com/dudeiebiish?igsh=dHc0M2trZ2J2OGFk&utm_source=qr"
-    - name: "cv"
-      url: dudecv.pdf 
 
   # text search
   fuseOpts:

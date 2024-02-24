@@ -22,7 +22,7 @@
 
 .buttons {
     flex-wrap: wrap;
-    max-width: 400px;
+    max-width: 200px;
     margin: 0 auto;
 }
 
@@ -30,7 +30,7 @@
     background: var(--tertiary);
     border-radius: var(--radius);
     margin: 8px;
-    padding: 6px;
+    padding: 4px;
     transition: transform 0.1s;
 }
 
