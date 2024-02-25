@@ -71,6 +71,8 @@ params:
     buttons:
       - name: da'setup🛠️
         url: "setup"
+      - name: mail me
+        url: "mailto:ojoexcel5@gmail.com"
 
   # List View
   hideDescriptionInList: false
