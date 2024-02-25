@@ -58,4 +58,4 @@ _potraying all my daily go-to tools, awesome saas finds, and editors galore! let
 `stickies`  
 `Day Progress`
 
-I have more talks ragarding this [here](https://65db35130a411000088387f5--zingy-cucurucho-28ab6e.netlify.app/journal/stack/)
+I have more talks ragarding this [here](https://65db43cac4acfbd68c8568bb--cheery-paletas-e8606f.netlify.app/journal/stack/)
