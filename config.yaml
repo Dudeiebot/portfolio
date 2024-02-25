@@ -1,4 +1,4 @@
-baseURL: ""
+baseURL: "https://65db35130a411000088387f5--zingy-cucurucho-28ab6e.netlify.app"
 languageCode: en-us
 title: Excel Ojo
 paginate: 5
@@ -68,7 +68,7 @@ params:
     enabled: true
     title: "_id~_"
     subtitle: | 
-      Hi there, I'm Excel - a software expert and cryptography enthusiast. I spend my days building all sorts of random things. You can bet I'm not out here trying to break stuff; it's all about the joy of creating and exploring technology in a secure world. Here is the [RSSfeed](localhost:1313/index.xml)
+      Hi there, I'm Excel - a software expert and cryptography enthusiast. I spend my days building all sorts of random things. You can bet I'm not out here trying to break stuff; it's all about the joy of creating and exploring technology in a secure world. Here is the [RSSfeed](https://65db35130a411000088387f5--zingy-cucurucho-28ab6e.netlify.app/index.xml)
     imageUrl: "suare.jpg"
     imageWidth: 220
     imageHeight: 220

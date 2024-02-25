@@ -2,34 +2,34 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Journals on Excel Ojo</title>
-    <link>//localhost:1313/journal/</link>
+    <link>http://localhost:1313/journal/</link>
     <description>Recent content in Journals on Excel Ojo</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="//localhost:1313/journal/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="http://localhost:1313/journal/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>noob.md</title>
-      <link>//localhost:1313/journal/regarding_nvim/</link>
+      <link>http://localhost:1313/journal/regarding_nvim/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/journal/regarding_nvim/</guid>
+      <guid>http://localhost:1313/journal/regarding_nvim/</guid>
       <description>noob just like you know</description>
     </item>
     
     <item>
       <title>da&#39;stack</title>
-      <link>//localhost:1313/journal/stack/</link>
+      <link>http://localhost:1313/journal/stack/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/journal/stack/</guid>
+      <guid>http://localhost:1313/journal/stack/</guid>
       <description>Tools I utilize, anticipate utilizing, and likely will persist in utilizing</description>
     </item>
     
     <item>
       <title>How i want to write</title>
-      <link>//localhost:1313/journal/how_i_want_to_write/</link>
+      <link>http://localhost:1313/journal/how_i_want_to_write/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/journal/how_i_want_to_write/</guid>
+      <guid>http://localhost:1313/journal/how_i_want_to_write/</guid>
       <description>preferrably how i will like to be writing all my .md</description>
     </item>
     

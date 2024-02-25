@@ -12,7 +12,7 @@ showtoc: true
 weight: 2
 ---
 
-In my setup page, you'll find a list of all my daily go-to tools and some awesome applications I use. We're going to delve deeper into the setup and discuss what I find interesting in those apps, as well as touch on my Neovim (nvim) setup. Additionally, you can check out [noob.Md](link to it) for more information regarding the nvim setup and how to integrate it all together.
+In my setup page, you'll find a list of all my daily go-to tools and some awesome applications I use. We're going to delve deeper into the setup and discuss what I find interesting in those apps, as well as touch on my Neovim (nvim) setup. Additionally, you can check out [noob.Md](https://65db35130a411000088387f5--zingy-cucurucho-28ab6e.netlify.app/journal/stack/journal/regarding_nvim/) for more information regarding the nvim setup and how to integrate it all together.
 
 
 {{< figure src="/space.jpeg" title="Excel's Workstation"  >}}

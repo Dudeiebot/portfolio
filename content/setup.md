@@ -58,4 +58,4 @@ _potraying all my daily go-to tools, awesome saas finds, and editors galore! let
 `stickies`  
 `Day Progress`
 
-I have more talks ragarding this [here](http://excel.ojo/journals/setup/)
+I have more talks ragarding this [here](https://65db35130a411000088387f5--zingy-cucurucho-28ab6e.netlify.app/journals/stack/)
