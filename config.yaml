@@ -10,15 +10,15 @@ menu:
       name: i'm
       url: /
       weight: 1
-    - identifier: dajournal
-      name: da'journal
+    - identifier: journal
+      name: journal
       url: /journal
       weight: 2
-    - identifier: daproject
+    - identifier: project
       name: projects
       url: /project
       weight: 3
-    - identifier: daall
+    - identifier: all
       name: all
       url: /daall
       weight: 4
@@ -68,7 +68,7 @@ params:
     enabled: true
     title: "_id~_"
     subtitle: | 
-      Hi there, I'm Excel - a software and system engineer. I spend my days building all sorts of random things. You can bet I'm not out here trying to break stuff; it's all about the joy of creating and exploring technology in a secure world—I also understand cybersecurity
+      Hi there, I'm Excel - a software expert and cryptography enthusiast. I spend my days building all sorts of random things. You can bet I'm not out here trying to break stuff; it's all about the joy of creating and exploring technology in a secure world. Here is the [RSSfeed](localhost:1313/index.xml)
     imageUrl: "suare.jpg"
     imageWidth: 220
     imageHeight: 220
@@ -91,8 +91,6 @@ params:
       url: "https://twitter.com/crecia_cell"
     - name: "github"
       url: "https://github.com/dudeiebot"
-    - name: "email"
-      url: "mailto:ojoexcel5@gmail.com" #going to add more socials here 
     - name: "instagram"
       url: "https://www.instagram.com/dudeiebiish?igsh=dHc0M2trZ2J2OGFk&utm_source=qr"
 

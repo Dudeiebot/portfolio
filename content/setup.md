@@ -22,7 +22,10 @@ editPost:
     appendfilepath: true 
 ---
 
- `potraying all my daily go-to tools, awesome saas finds, and editors galore! let's dive into the fun stuff!`
+{{< figure src="/space.jpeg" title="Excel's Workstation"  >}}
+_potraying all my daily go-to tools, awesome saas finds, and editors galore! let's dive into the fun stuff!_
+
+<!-- <pre> hello </pre> -->
 
 #### hardware  
 [`lg ultrawide 34' monitor`](https://www.amazon.co.uk/LG-UltraWide-34WR50QC-compatible-Displayport/dp/B0CCFYGNMX?th=1)  
@@ -34,7 +37,6 @@ editPost:
 
 
 #### editors & terminals
- *for more regaring my nvim setup, [go-to]()*  <!-- dont forget to attach your setup link here -->  
 [`nvim`](https://github.com/dudeiebot/nvim)  
 `goland`  
 [`ohmyz.sh`](https://ohmyz.sh)  
@@ -59,4 +61,4 @@ editPost:
 `stickies`  
 `Day Progress`
 
-i have more talks ragarding this [here](http://excel.ojo/journals/setup/)
+I have more talks ragarding this [here](http://excel.ojo/journals/setup/)

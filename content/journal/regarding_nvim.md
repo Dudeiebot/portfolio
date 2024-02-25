@@ -16,6 +16,10 @@ weight: 1
 
 This guide provides essential tips and commands when using Neovim. Instead of spending time searching for specific commands, you can find the most important ones right here. These commands can be customized in your nvim setup but most of them are defualt, and most of them are customed to my taste. Check my [`setup`](https://github.com/Dudeiebot/nvim)
 
+{{< figure src="/nvim3.jpg" >}}
+{{< figure src="/nvim2.jpg" title="efficiency at it"  >}}
+
+
 #### Key Modes in Neovim
 
 - **Normal Mode:** The default mode for Neovim.

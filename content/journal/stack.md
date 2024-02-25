@@ -14,6 +14,9 @@ weight: 2
 
 In my setup page, you'll find a list of all my daily go-to tools and some awesome applications I use. We're going to delve deeper into the setup and discuss what I find interesting in those apps, as well as touch on my Neovim (nvim) setup. Additionally, you can check out [noob.Md](link to it) for more information regarding the nvim setup and how to integrate it all together.
 
+
+{{< figure src="/space.jpeg" title="Excel's Workstation"  >}}
+
 I am one of those young software engineers who started with Notepad++, then progressed to Sublime Text, before eventually using VSCode and nvim. Throughout my years of development and experimentation with different text editors, one crucial aspect to consider is what makes coding easier and more lightweight for your computer system. This is particularly important because you don't want to be the engineer who doesn't improve as they code. I vividly recall the times when using Notepad++, where we didn't have assisted extensions or co-pilot features like we do now; it was all about hard-coding and facing reality.  
 ```
 I remember my younger self installing Notepad++ on those HP systems with just 2GB 
@@ -29,7 +32,11 @@ I grew to appreciate nvim + tmux for its ease of terminal manipulation and custo
 
 I use iTerm2 as my terminal emulator, which has been reliable for me, aside from a minor hiccup when attempting to update it directly from the app. It mistakenly installed the nightly version, which I had to delete and reinstall. Additionally, I recommend terminal emulators like [Alacritty](https://alacritty.org) and [Wezterm](https://wezfurlong.org/wezterm/index.html), although I personally haven't used them, they're highly regarded among software engineers.
 
+{{< figure src="/tmux.jpg" title="terminal multiplexing, what you need"  >}}
+
 For terminal multiplexing, I rely on tmux, an essential tool compatible with any of the aforementioned terminal emulators. The key to mastering tmux lies in configuring its prefix, which you can customize to your liking. I've shared an example of my [tmux.conf](https://github.com/Dudeiebot/dotall/blob/master/config/.tmux.conf) file, which demonstrates how to create the perfect setup. Additionally, tmux offers amazing plugins like resurrect and continuum, both of which help restore previous terminal windows in case of accidental closure or power outage. Check out my minimal [CMD guide](https://github.com/Dudeiebot/dotall/blob/master/noob.md) for more on tmux.
+
+{{< figure src="/nvim2.jpg" title="efficiency at it"  >}}
 
 As for my shell, I use zsh, enhanced by Oh My Zsh for added vibe and cool features. Another handy tool in my terminal arsenal is [`thefuck`](https://github.com/nvbn/thefuck), which helps me recall forgotten commands or their syntax.
 
