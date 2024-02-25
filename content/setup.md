@@ -7,9 +7,6 @@ disableHLJS: true # to disable highlightjs
 disableHLJS: false
 hideSummary: false
 searchHidden: true
-ShowReadingTime: true
-ShowBreadCrumbs: true
-ShowPostNavLinks: true
 cover:
     image: "<image path/url>" # image path/url
     alt: "<alt text>" # alt text
