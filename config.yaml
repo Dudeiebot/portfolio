@@ -71,8 +71,6 @@ params:
     buttons:
       - name: da'setup🛠️
         url: "setup"
-      - name: mail me
-        url: "mailto:ojoexcel5@gmail.com"
 
   # List View
   hideDescriptionInList: false
@@ -89,8 +87,8 @@ params:
       url: "https://twitter.com/crecia_cell"
     - name: "github"
       url: "https://github.com/dudeiebot"
-    - name: "instagram"
-      url: "https://www.instagram.com/dudeiebiish?igsh=dHc0M2trZ2J2OGFk&utm_source=qr"
+    - name: "mail"
+      url: "mailto:ojoexcel5@gmail.com"
 
   # text search
   fuseOpts:

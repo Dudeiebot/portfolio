@@ -12,4 +12,4 @@ My most gratifying experiences as an engineer derive from successfully deploying
 
 In my leisure time, I dedicate myself to refining my problem-solving abilities through engaging with LeetCode challenges. Additionally, I occasionally enjoy exploring virtual environments within video games as a means of relaxation and mental stimulation.
 
-[`read how i will like to write`](http://excelojo.com/journals/how_i_want_to_write/) 
+[`read how i will like to write`](/journal/how_i_want_to_write/) 
