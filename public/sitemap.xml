@@ -16,6 +16,8 @@
   </url><url>
     <loc>//localhost:1313/categories/</loc>
   </url><url>
+    <loc>//localhost:1313/disclaimer/</loc>
+  </url><url>
     <loc>//localhost:1313/</loc>
   </url><url>
     <loc>//localhost:1313/journal/</loc>
