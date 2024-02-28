@@ -17,7 +17,7 @@ In my setup page, you'll find a list of all my daily go-to tools and some awesom
 
 {{< figure src="/space.jpeg" title="Excel's Workstation"  >}}
 
-I am one of those young software engineers who started with Notepad++, then progressed to Sublime Text, before eventually using VSCode and nvim. Throughout my years of development and experimentation with different text editors, one crucial aspect to consider is what makes coding easier and more lightweight for your computer system. This is particularly important because you don't want to be the engineer who doesn't improve as they code. I vividly recall the times when using Notepad++, where we didn't have assisted extensions or co-pilot features like we do now; it was all about hard-coding and facing reality.  
+I am one of those young software engineers who started with Vim and Notepad++, then progressed to Sublime Text, before eventually using VSCode and nvim. Throughout my years of development and experimentation with different text editors, one crucial aspect to consider is what makes coding easier and more lightweight for your computer system. This is particularly important because you don't want to be the engineer who doesn't improve as they code. I vividly recall the times when using Vim and Notepad++, i didn't even know about extensions like we do now; it was all about hard-coding and facing reality.  
 ```
 I remember my younger self installing Notepad++ on those HP systems with just 2GB 
 of RAM, trying not to overload the system or hear the fan kick into high gear
