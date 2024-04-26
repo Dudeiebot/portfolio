@@ -64,7 +64,7 @@ params:
     enabled: true
     title: "_id~_"
     subtitle: | 
-      Hi there, I'm Excel - a software expert and cryptography enthusiast. I spend my days building all sorts of random things. You can bet I'm not out here trying to break stuff; it's all about the joy of creating and exploring technology in a secure world. Here is the [RSSfeed](/journal/index.xml)
+      Hi there, I am Excel - a software expert. I spend my days building all sorts of random things. You can bet I am not out here trying to break stuff; it is all about the joy of creating and exploring technology in a secure world. Here is the [RSSfeed](/journal/index.xml)
     imageUrl: "suare.jpg"
     imageWidth: 220
     imageHeight: 220
