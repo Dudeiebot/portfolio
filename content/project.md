@@ -39,7 +39,7 @@ Implemented the Luhn Algorithm in Python and C, a fundamental checksum formula e
 Technologies 🧰:  
   `Python`
 
-#### - [Reverse Playback: Unveiling the World of Audio Manipulation](https://github.com/Dudeiebot/reverse)
+#### - [Reverse Playback: Unveiling the World of Audio Creativity](https://github.com/Dudeiebot/reverse)
 Developed a Command Line Interface (CLI) project in C for the reversal of audio data, providing users with a tool for audio creativity.
 
 Technologies 🧰:  
