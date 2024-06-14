@@ -33,7 +33,7 @@ _potraying all my daily go-to tools, awesome saas finds, and editors galore! let
 `airpods pro(2nd gen)`
 
 
-#### editors & terminals
+#### editors & terminal emulators
 [`nvim`](https://github.com/dudeiebot/nvim)  
 `goland`  
 [`ohmyz.sh`](https://ohmyz.sh)  
