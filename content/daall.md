@@ -1,15 +1,14 @@
 ---
 showReadingTime: false
 ---
-Hey there, I'm Excel Ojo – a software engineer and cybersecurity researcher.
-Throughout my career, I've worked on various software projects spanning diverse domains and technologies, most of which are available on my [`GitHub profile.`](https://github.com/Dudeiebot)
+Hey there, Excel Ojo here – a software engineer/software security engineer.
+The majority of the software projects I've worked on over my career, which cover a variety of industries and technologies, are accessible through my[`GitHub profile.`](https://github.com/Dudeiebot)
 
-I hold a degree in cybersecurity, encompassing coursework in mathematics, software engineering, cryptography, and related fields. This educational background has equipped me with a robust foundation in both theoretical principles and hands-on applications.
+I hold a degree in cybersecurity, encompassing coursework in algorithms, cryptography, software engineering, design model and related fields. This educational background has equipped me with a robust foundation in both theoretical principles and hands-on applications.
 
-In particular, I have dedicated my time to mastering Golang, alongside increasing proficiency in Rust, C, Java, Javascript and Python. Leveraging Go extensively, I have contributed to the development of microservices, backend services, DevOps workflows, and command-line utilities.  
+In particular, I have dedicated my time to mastering Golang, in addition becoming proficient and learning in Rust, C, Java, Javascript and Python. Leveraging Go extensively, I have contributed to the creation of microservices, backend services, DevOps workflows, and command-line utilities.  
 
-My most cool experience as an engineer is derived from successfully deploying solutions that resonate with users. I am committed to tackling challenges with tenacity, endeavoring to enact meaningful change in individuals' lives through incremental problem-solving.
-
-In my leisure time, I dedicate myself to refining my problem-solving abilities by engaging with LeetCode challenges. Additionally, I occasionally enjoy exploring virtual environments within video games as a means of relaxation.
+My most exciting engineering experience has been effectively delivering user-friendly solutions. I am dedicated to confronting issues with perseverance, hoping to effect genuine change in people's lives through incremental problem-solving.
+In my free time, I practise problem-solving skills by participating in LeetCode challenges. I also enjoy exploring virtual environment within video games as a kind of relaxation.
 
 [`read how i will like to write`](/journal/how_i_want_to_write/) 
