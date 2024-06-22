@@ -11,4 +11,4 @@ In particular, I have dedicated my time to mastering Golang, in addition becomin
 My most exciting engineering experience has been effectively delivering user-friendly solutions. I am dedicated to confronting issues with perseverance, hoping to effect genuine change in people's lives through incremental problem-solving.
 In my free time, I practise problem-solving skills by participating in LeetCode challenges. I also enjoy exploring virtual environment within video games as a kind of relaxation.
 
-[`read how i will like to write`](/journal/how_i_want_to_write/) 
+[`read shiiiiiiit writing`](/journal/how_i_want_to_write/) 
