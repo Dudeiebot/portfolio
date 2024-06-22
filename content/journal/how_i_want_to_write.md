@@ -1,5 +1,5 @@
 ---
-title: "How i want to write"
+title: "leemaoooo writing"
 slug:
 category:
 summary: preferrably how i will like to be writing all my .md
@@ -12,7 +12,7 @@ showtoc: true
 weight: 3
 ---
 
-`Hey there, I'm Excel Ojo – a software engineer and cyber security reasearcher`  
+`Hey there, I'm Excel Ojo – a software engineer/ software security engineer`  
 
 `Throughout my illustrious career, I've been burdened with the 'opportunity' to toil endlessly on an exhaustive array of software projects spanning diverse domains and technologies. Should you dare to explore the vast expense of my endeavors, you'll find most of these 'masterpieces haunting my glorious`[`GitHub profile.`](https://github.com/Dudeiebot)
 
