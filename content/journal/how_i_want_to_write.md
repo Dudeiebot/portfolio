@@ -1,8 +1,8 @@
 ---
-title: "leemaoooo writing"
+title: "l'eemaoooo writing"
 slug:
 category:
-summary: preferrably how i will like to be writing all my .md
+summary: preferrably shiiiiiiiiit writing .md
 cover:
   image:
   alt:
